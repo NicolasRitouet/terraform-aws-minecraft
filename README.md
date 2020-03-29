@@ -1,12 +1,12 @@
 # terraform-aws-minecraft
 
-Terraform module to provision an EC2 instance with an S3 backing store for running the [Minecraft](https://minecraft.net/en-us/) server.
+Terraform module to provision an EC2 instance with an S3 backing store for running the [Minecraft](https://minecraft.net/en-us/) server (Spigot flavor).
 
 ## Usage
 
 ```
 module "minecraft" {
-  source = "git@github.com:darrelldavis/terraform-aws-minecraft.git?ref=master"
+  source = "git@github.com:nicolasritouet/terraform-aws-minecraft.git?ref=master"
 
   key_name  = "my-key"
   bucket_id = "my-unique-bucket-name"

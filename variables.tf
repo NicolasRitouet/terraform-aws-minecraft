@@ -81,3 +81,8 @@ variable "allowed_cidrs" {
   default     = "0.0.0.0/0"
 }
 
+variable "spigot_rev" {
+  description = "Version of the Spigot build"
+  default     = "latest"
+}
+
